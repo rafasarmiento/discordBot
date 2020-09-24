@@ -1,0 +1,35 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot para servidor de discord hecho con typescript",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "start": "node dist/bot.js",
+    "dev":"nodemon -e ts --exec \"npm run build && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafasarmiento/discordBot.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Bot",
+    "Practice"
+  ],
+  "author": "Rafael Sarmiento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafasarmiento/discordBot/issues"
+  },
+  "homepage": "https://github.com/rafasarmiento/discordBot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.3"
+  }
+}
